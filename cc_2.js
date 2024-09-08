@@ -13,3 +13,21 @@ let totalAmount = bill + tip;
 console.log(`The bill is $${bill}, the tip is $${tip}, and the total value is $${totalAmount}.`);
 //if the bill is $200 it would be: The billis $200, the tip is $30, and the total value is $230.
 
+
+// Task 3 - Create a Function
+
+function calculateTip(bill) {
+    if (bill >= 50 && bill <= 300) {
+        return bill * 0.25
+    }
+    else {return bill * 0.20}
+} // Used if statement to make the conditional amount of tip based on the bill
+
+let testBill = 100
+let testTip = calculateTip(testBill);
+
+console.log(`The bill is $${testBill} and the tip is $${testTip}.`) //The bill is $100 and the tip is $15.
+
+
+
+
