@@ -29,5 +29,13 @@ let testTip = calculateTip(testBill);
 console.log(`The bill is $${testBill} and the tip is $${testTip}.`) //The bill is $100 and the tip is $15.
 
 
+// Task 4 - Utilize Arrays
 
+let bills = [275, 40, 430, 125, 555, 44] // Array of both datasets
+let tips = bills.map(bill => calculateTip(bill)); // calculates the function in every number in bills 
+let totals = bills.map(bill => bill + calculateTip(bill)); // map array of total bill
+
+console.log("Bills:", bills);
+console.log("Tips:", tips);
+console.log("Totals:", totals);
 
