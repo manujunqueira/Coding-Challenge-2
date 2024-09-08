@@ -6,3 +6,10 @@ let tip = (bill >= 50 && bill <= 300) ? (0.15 * bill) : (0.20 * bill);
 
 console.log(tip);
 
+
+// Task 2 - Output Details
+
+let totalAmount = bill + tip; 
+console.log(`The bill is $${bill}, the tip is $${tip}, and the total value is $${totalAmount}.`);
+//if the bill is $200 it would be: The billis $200, the tip is $30, and the total value is $230.
+
