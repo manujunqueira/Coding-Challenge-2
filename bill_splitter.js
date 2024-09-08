@@ -18,7 +18,7 @@ console.log(`The bill is $${bill}, the tip is $${tip}, and the total value is $$
 
 function calculateTip(bill) {
     if (bill >= 50 && bill <= 300) {
-        return bill * 0.25
+        return bill * 0.15
     }
     else {return bill * 0.20}
 } // Used if statement to make the conditional amount of tip based on the bill
